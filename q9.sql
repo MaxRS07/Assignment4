@@ -1,4 +1,5 @@
 -- CUSTOM QUERY: names of customers who spent at least $100 on phonk music
+-- The results are a list of first and last names of customers who have spent at least $100 on tracks that belong to the "Brazilian Music" genre
 
 SELECT customers.FirstName, customers.LastName
 FROM customers

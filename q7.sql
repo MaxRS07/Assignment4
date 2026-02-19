@@ -1,3 +1,5 @@
+-- (20 pts) How many artists published at least 10 MPEG tracks?
+
 SELECT COUNT(*) as NumberOfArtists
 FROM (
   SELECT artists.ArtistId
